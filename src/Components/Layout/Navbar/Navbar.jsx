@@ -4,7 +4,7 @@ import { Bell, User, LogOut, Menu, Bookmark, Home } from "lucide-react";
 
 export default function Navbar({ setIsMobileOpen }) {
   return (
-    <header className="w-full h-20 bg-white shadow-md px-6 flex items-center justify-between sticky top-0 z-30">
+    <header className="w-[1190px] ml-[320px] h-20 bg-white shadow-md px-6 flex items-center justify-between sticky top-0 z-30">
       {/* Mobile Sidebar Button */}
       <button
         onClick={() => setIsMobileOpen(true)}
